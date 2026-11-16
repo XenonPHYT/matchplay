@@ -1,0 +1,2344 @@
+{
+  "id": "platonic",
+  "version": 1,
+  "categories": [
+    {
+      "id": "communication",
+      "label": "Communication",
+      "weight": 1
+    },
+    {
+      "id": "reliability",
+      "label": "Reliability expectations",
+      "weight": 1
+    },
+    {
+      "id": "interests",
+      "label": "Shared interests",
+      "weight": 1
+    },
+    {
+      "id": "understanding",
+      "label": "Mutual understanding",
+      "weight": 1
+    },
+    {
+      "id": "support",
+      "label": "Support preferences",
+      "weight": 1
+    },
+    {
+      "id": "dynamics",
+      "label": "Friendship dynamics",
+      "weight": 1
+    },
+    {
+      "id": "repair",
+      "label": "Conflict & repair",
+      "weight": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "platonic-communication-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "communication",
+      "text": "A comfortable message rhythm would be…",
+      "weight": 1,
+      "tags": ["platonic", "communication", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-communication-individual-0",
+          "text": "A quick check-in most days",
+          "value": 0
+        },
+        {
+          "id": "platonic-communication-individual-1",
+          "text": "A few catch-ups each week",
+          "value": 1
+        },
+        {
+          "id": "platonic-communication-individual-2",
+          "text": "Longer, occasional catch-ups",
+          "value": 2
+        },
+        {
+          "id": "platonic-communication-individual-3",
+          "text": "Spontaneous, no set rhythm",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-communication-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "communication",
+      "text": "When a reply takes longer than expected, imagine this pair…",
+      "weight": 1,
+      "tags": ["platonic", "communication", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-communication-comparative-0",
+          "text": "Agreeing that timing is flexible",
+          "score": 100
+        },
+        {
+          "id": "platonic-communication-comparative-1",
+          "text": "Checking in about preferred timing",
+          "score": 70
+        },
+        {
+          "id": "platonic-communication-comparative-2",
+          "text": "Making different assumptions",
+          "score": 35
+        },
+        {
+          "id": "platonic-communication-comparative-3",
+          "text": "Leaving expectations unspoken",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-communication-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "communication",
+      "text": "A message lands awkwardly. In your imagined scene, they…",
+      "weight": 1,
+      "tags": ["platonic", "communication", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-communication-situational-0",
+          "text": "Ask what was meant, then clarify",
+          "score": 100
+        },
+        {
+          "id": "platonic-communication-situational-1",
+          "text": "Take a pause, then revisit it",
+          "score": 70
+        },
+        {
+          "id": "platonic-communication-situational-2",
+          "text": "Change the subject without clarity",
+          "score": 35
+        },
+        {
+          "id": "platonic-communication-situational-3",
+          "text": "Keep guessing instead of asking",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-reliability-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "reliability",
+      "text": "For a casual plan, the ideal amount of confirmation is…",
+      "weight": 1,
+      "tags": ["platonic", "reliability", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-reliability-individual-0",
+          "text": "A clear plan several days ahead",
+          "value": 0
+        },
+        {
+          "id": "platonic-reliability-individual-1",
+          "text": "A confirmation the day before",
+          "value": 1
+        },
+        {
+          "id": "platonic-reliability-individual-2",
+          "text": "A quick message on the day",
+          "value": 2
+        },
+        {
+          "id": "platonic-reliability-individual-3",
+          "text": "Keep it flexible until we meet",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-reliability-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "reliability",
+      "text": "When one person cannot make a plan, imagine…",
+      "weight": 1,
+      "tags": ["platonic", "reliability", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-reliability-comparative-0",
+          "text": "Early notice and an offered alternative",
+          "score": 100
+        },
+        {
+          "id": "platonic-reliability-comparative-1",
+          "text": "An apology and a later check-in",
+          "score": 70
+        },
+        {
+          "id": "platonic-reliability-comparative-2",
+          "text": "A late cancellation with no next step",
+          "score": 35
+        },
+        {
+          "id": "platonic-reliability-comparative-3",
+          "text": "No update until the other asks",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-reliability-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "reliability",
+      "text": "A promised small favor gets forgotten. Imagine the pair…",
+      "weight": 1,
+      "tags": ["platonic", "reliability", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-reliability-situational-0",
+          "text": "Acknowledging it and agreeing a new plan",
+          "score": 100
+        },
+        {
+          "id": "platonic-reliability-situational-1",
+          "text": "Explaining and checking what is still needed",
+          "score": 70
+        },
+        {
+          "id": "platonic-reliability-situational-2",
+          "text": "Making a vague promise for later",
+          "score": 35
+        },
+        {
+          "id": "platonic-reliability-situational-3",
+          "text": "Avoiding the topic entirely",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-interests-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "interests",
+      "text": "The most appealing shared downtime sounds like…",
+      "weight": 1,
+      "tags": ["platonic", "interests", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-interests-individual-0",
+          "text": "An active outdoor adventure",
+          "value": 0
+        },
+        {
+          "id": "platonic-interests-individual-1",
+          "text": "Trying somewhere new",
+          "value": 1
+        },
+        {
+          "id": "platonic-interests-individual-2",
+          "text": "A movie, game or creative project",
+          "value": 2
+        },
+        {
+          "id": "platonic-interests-individual-3",
+          "text": "A quiet, familiar hangout",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-interests-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "interests",
+      "text": "Choosing an activity together feels most like…",
+      "weight": 1,
+      "tags": ["platonic", "interests", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-interests-comparative-0",
+          "text": "Trading ideas until both are happy",
+          "score": 100
+        },
+        {
+          "id": "platonic-interests-comparative-1",
+          "text": "Taking turns picking the plan",
+          "score": 70
+        },
+        {
+          "id": "platonic-interests-comparative-2",
+          "text": "One person regularly choosing",
+          "score": 35
+        },
+        {
+          "id": "platonic-interests-comparative-3",
+          "text": "Neither saying what they want",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-interests-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "interests",
+      "text": "Their first-choice activities differ. Imagine them…",
+      "weight": 1,
+      "tags": ["platonic", "interests", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-interests-situational-0",
+          "text": "Combining small parts of both ideas",
+          "score": 100
+        },
+        {
+          "id": "platonic-interests-situational-1",
+          "text": "Choosing one now and the other next time",
+          "score": 70
+        },
+        {
+          "id": "platonic-interests-situational-2",
+          "text": "One giving in without discussing it",
+          "score": 35
+        },
+        {
+          "id": "platonic-interests-situational-3",
+          "text": "Abandoning the plan without exploring it",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-understanding-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "understanding",
+      "text": "When explaining a tricky idea, the preferred style is…",
+      "weight": 1,
+      "tags": ["platonic", "understanding", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-understanding-individual-0",
+          "text": "Get straight to the main point",
+          "value": 0
+        },
+        {
+          "id": "platonic-understanding-individual-1",
+          "text": "Offer a short example",
+          "value": 1
+        },
+        {
+          "id": "platonic-understanding-individual-2",
+          "text": "Talk through the full context",
+          "value": 2
+        },
+        {
+          "id": "platonic-understanding-individual-3",
+          "text": "Think first, then write it down",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-understanding-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "understanding",
+      "text": "If a joke misses the mark, picture this pair…",
+      "weight": 1,
+      "tags": ["platonic", "understanding", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-understanding-comparative-0",
+          "text": "Checking in and adjusting the joke",
+          "score": 100
+        },
+        {
+          "id": "platonic-understanding-comparative-1",
+          "text": "Offering a quick apology",
+          "score": 70
+        },
+        {
+          "id": "platonic-understanding-comparative-2",
+          "text": "Insisting the joke should land",
+          "score": 35
+        },
+        {
+          "id": "platonic-understanding-comparative-3",
+          "text": "Ignoring the uncomfortable moment",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-understanding-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "understanding",
+      "text": "One person feels misunderstood in a fictional scene. They…",
+      "weight": 1,
+      "tags": ["platonic", "understanding", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-understanding-situational-0",
+          "text": "Restate the idea and check the takeaway",
+          "score": 100
+        },
+        {
+          "id": "platonic-understanding-situational-1",
+          "text": "Try a different example",
+          "score": 70
+        },
+        {
+          "id": "platonic-understanding-situational-2",
+          "text": "Repeat it louder without a check-in",
+          "score": 35
+        },
+        {
+          "id": "platonic-understanding-situational-3",
+          "text": "Assume the other should already understand",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-support-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "support",
+      "text": "After an ordinary rough day, the preferred first response is…",
+      "weight": 1,
+      "tags": ["platonic", "support", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-support-individual-0",
+          "text": "Help find a practical fix",
+          "value": 0
+        },
+        {
+          "id": "platonic-support-individual-1",
+          "text": "Listen before suggesting anything",
+          "value": 1
+        },
+        {
+          "id": "platonic-support-individual-2",
+          "text": "Offer a distraction or shared activity",
+          "value": 2
+        },
+        {
+          "id": "platonic-support-individual-3",
+          "text": "Give some quiet breathing room",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-support-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "support",
+      "text": "When support is needed, imagine the pair…",
+      "weight": 1,
+      "tags": ["platonic", "support", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-support-comparative-0",
+          "text": "Asking which kind would help",
+          "score": 100
+        },
+        {
+          "id": "platonic-support-comparative-1",
+          "text": "Offering help and adjusting if asked",
+          "score": 70
+        },
+        {
+          "id": "platonic-support-comparative-2",
+          "text": "Using only their own favorite approach",
+          "score": 35
+        },
+        {
+          "id": "platonic-support-comparative-3",
+          "text": "Expecting the need to be obvious",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-support-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "support",
+      "text": "A well-meant suggestion is not helpful. Imagine them…",
+      "weight": 1,
+      "tags": ["platonic", "support", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-support-situational-0",
+          "text": "Asking what would work better",
+          "score": 100
+        },
+        {
+          "id": "platonic-support-situational-1",
+          "text": "Switching to listening for a while",
+          "score": 70
+        },
+        {
+          "id": "platonic-support-situational-2",
+          "text": "Repeating the same advice",
+          "score": 35
+        },
+        {
+          "id": "platonic-support-situational-3",
+          "text": "Ending the conversation without checking",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-dynamics-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "dynamics",
+      "text": "A comfortable shared social setting sounds like…",
+      "weight": 1,
+      "tags": ["platonic", "dynamics", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-dynamics-individual-0",
+          "text": "A lively group event",
+          "value": 0
+        },
+        {
+          "id": "platonic-dynamics-individual-1",
+          "text": "A small group with an activity",
+          "value": 1
+        },
+        {
+          "id": "platonic-dynamics-individual-2",
+          "text": "An unhurried one-to-one catch-up",
+          "value": 2
+        },
+        {
+          "id": "platonic-dynamics-individual-3",
+          "text": "A low-key hangout with quiet moments",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-dynamics-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "dynamics",
+      "text": "When one wants a crowd and one wants quiet, imagine…",
+      "weight": 1,
+      "tags": ["platonic", "dynamics", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-dynamics-comparative-0",
+          "text": "Agreeing a plan with an easy exit",
+          "score": 100
+        },
+        {
+          "id": "platonic-dynamics-comparative-1",
+          "text": "Taking turns with different settings",
+          "score": 70
+        },
+        {
+          "id": "platonic-dynamics-comparative-2",
+          "text": "One always following the louder preference",
+          "score": 35
+        },
+        {
+          "id": "platonic-dynamics-comparative-3",
+          "text": "Both avoiding a decision",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-dynamics-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "dynamics",
+      "text": "A new person joins the hangout. In this scenario, they…",
+      "weight": 1,
+      "tags": ["platonic", "dynamics", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-dynamics-situational-0",
+          "text": "Make introductions and include everyone",
+          "score": 100
+        },
+        {
+          "id": "platonic-dynamics-situational-1",
+          "text": "Let the conversation settle naturally",
+          "score": 70
+        },
+        {
+          "id": "platonic-dynamics-situational-2",
+          "text": "Stay in a closed conversation",
+          "score": 35
+        },
+        {
+          "id": "platonic-dynamics-situational-3",
+          "text": "Leave someone to navigate alone",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-repair-individual",
+      "type": "individual",
+      "mode": "platonic",
+      "category": "repair",
+      "text": "After a small disagreement, a comfortable reset would be…",
+      "weight": 1,
+      "tags": ["platonic", "repair", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-repair-individual-0",
+          "text": "Talk it through right away",
+          "value": 0
+        },
+        {
+          "id": "platonic-repair-individual-1",
+          "text": "Pause briefly, then talk",
+          "value": 1
+        },
+        {
+          "id": "platonic-repair-individual-2",
+          "text": "Take a longer break with a return time",
+          "value": 2
+        },
+        {
+          "id": "platonic-repair-individual-3",
+          "text": "Write thoughts down before discussing",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "platonic-repair-comparative",
+      "type": "comparative",
+      "mode": "platonic",
+      "category": "repair",
+      "text": "When opinions differ, imagine the pair…",
+      "weight": 1,
+      "tags": ["platonic", "repair", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-repair-comparative-0",
+          "text": "Naming the issue without personal jabs",
+          "score": 100
+        },
+        {
+          "id": "platonic-repair-comparative-1",
+          "text": "Pausing and returning to the topic",
+          "score": 70
+        },
+        {
+          "id": "platonic-repair-comparative-2",
+          "text": "Trying to win instead of understand",
+          "score": 35
+        },
+        {
+          "id": "platonic-repair-comparative-3",
+          "text": "Acting as though the issue vanished",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "platonic-repair-situational",
+      "type": "situational",
+      "mode": "platonic",
+      "category": "repair",
+      "text": "A minor disagreement returns. In the imagined scene, they…",
+      "weight": 1,
+      "tags": ["platonic", "repair", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "platonic-repair-situational-0",
+          "text": "Agree one concrete change to try",
+          "score": 100
+        },
+        {
+          "id": "platonic-repair-situational-1",
+          "text": "Compare what each understood",
+          "score": 70
+        },
+        {
+          "id": "platonic-repair-situational-2",
+          "text": "Replay the old argument unchanged",
+          "score": 35
+        },
+        {
+          "id": "platonic-repair-situational-3",
+          "text": "Avoid agreeing any next step",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "platonic-class-0",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Different Orbits"
+    },
+    {
+      "id": "platonic-class-1",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Casual Acquaintances"
+    },
+    {
+      "id": "platonic-class-2",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Small-Talk Explorers"
+    },
+    {
+      "id": "platonic-class-3",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Growing Friendship"
+    },
+    {
+      "id": "platonic-class-4",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Side-Quest Partners"
+    },
+    {
+      "id": "platonic-class-5",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Trusted Companions"
+    },
+    {
+      "id": "platonic-class-6",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Inside-Joke Alliance"
+    },
+    {
+      "id": "platonic-class-7",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Inseparable Duo"
+    },
+    {
+      "id": "platonic-class-8",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Constellation Crew"
+    },
+    {
+      "id": "platonic-class-9",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["platonic", "score-band", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Soul-Level Besties"
+    }
+  ],
+  "strengths": [
+    {
+      "id": "platonic-communication-strength-0",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered message rhythms line up; fewer fictional notification negotiations."
+    },
+    {
+      "id": "platonic-communication-strength-1",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "The imagined reply scenario leaves room for breathing space."
+    },
+    {
+      "id": "platonic-communication-strength-2",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "Your chosen clarification route gives a crossed wire an exit."
+    },
+    {
+      "id": "platonic-communication-strength-3",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The communication answers lean toward making expectations explicit."
+    },
+    {
+      "id": "platonic-reliability-strength-0",
+      "type": "strength",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The planning preferences you entered share a comfortable lead time."
+    },
+    {
+      "id": "platonic-reliability-strength-1",
+      "type": "strength",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your cancellation scene includes a considerate next step."
+    },
+    {
+      "id": "platonic-reliability-strength-2",
+      "type": "strength",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined forgotten favor has a practical repair route."
+    },
+    {
+      "id": "platonic-reliability-strength-3",
+      "type": "strength",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The reliability answers favor visible follow-through, not mind reading."
+    },
+    {
+      "id": "platonic-interests-strength-0",
+      "type": "strength",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The selected downtime styles occupy a similar corner of the weekend."
+    },
+    {
+      "id": "platonic-interests-strength-1",
+      "type": "strength",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your activity-choice scene makes room for both wish lists."
+    },
+    {
+      "id": "platonic-interests-strength-2",
+      "type": "strength",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "Different imagined activities get a workable compromise."
+    },
+    {
+      "id": "platonic-interests-strength-3",
+      "type": "strength",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The shared-interest answers favor curiosity over identical hobbies."
+    },
+    {
+      "id": "platonic-understanding-strength-0",
+      "type": "strength",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The explanation styles entered have a similar pace."
+    },
+    {
+      "id": "platonic-understanding-strength-1",
+      "type": "strength",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your missed-joke scene allows a kind course correction."
+    },
+    {
+      "id": "platonic-understanding-strength-2",
+      "type": "strength",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined misunderstanding gets another route to clarity."
+    },
+    {
+      "id": "platonic-understanding-strength-3",
+      "type": "strength",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "These understanding answers favor checking rather than assuming."
+    },
+    {
+      "id": "platonic-support-strength-0",
+      "type": "strength",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The selected support preferences ask for similar first steps."
+    },
+    {
+      "id": "platonic-support-strength-1",
+      "type": "strength",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your support scene starts with a useful question, not a heroic guess."
+    },
+    {
+      "id": "platonic-support-strength-2",
+      "type": "strength",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined unhelpful advice can change direction."
+    },
+    {
+      "id": "platonic-support-strength-3",
+      "type": "strength",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The support answers leave room for different kinds of care."
+    },
+    {
+      "id": "platonic-dynamics-strength-0",
+      "type": "strength",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The social-setting preferences entered have a similar volume knob."
+    },
+    {
+      "id": "platonic-dynamics-strength-1",
+      "type": "strength",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your crowd-versus-quiet scene includes a workable adjustment."
+    },
+    {
+      "id": "platonic-dynamics-strength-2",
+      "type": "strength",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined group expansion gives everyone a doorway in."
+    },
+    {
+      "id": "platonic-dynamics-strength-3",
+      "type": "strength",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The dynamic answers favor flexible plans over social pressure."
+    },
+    {
+      "id": "platonic-repair-strength-0",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered repair timing preferences are close together."
+    },
+    {
+      "id": "platonic-repair-strength-1",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your disagreement scenario keeps the issue separate from the people."
+    },
+    {
+      "id": "platonic-repair-strength-2",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined recurring disagreement gets a practical experiment."
+    },
+    {
+      "id": "platonic-repair-strength-3",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The repair answers point toward a reset, not a scoreboard."
+    },
+    {
+      "id": "platonic-overall-strength-0",
+      "type": "strength",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 75
+      },
+      "text": "Several categories share a high-scoring rhythm in the entered answers."
+    },
+    {
+      "id": "platonic-overall-strength-1",
+      "type": "strength",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 85
+      },
+      "text": "The overall result includes substantial common ground across these selected scenarios."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "platonic-communication-challenge-0",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different entered message rhythms could benefit from a timing check-in."
+    },
+    {
+      "id": "platonic-communication-challenge-1",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "The selected reply scenario leaves some expectations unexplained."
+    },
+    {
+      "id": "platonic-communication-challenge-2",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "In the imagined awkward-message scene, clarification needs a little help."
+    },
+    {
+      "id": "platonic-reliability-challenge-0",
+      "type": "challenge",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different confirmation preferences could turn a casual plan into calendar ping-pong."
+    },
+    {
+      "id": "platonic-reliability-challenge-1",
+      "type": "challenge",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "The selected cancellation scene gives the other person little planning room."
+    },
+    {
+      "id": "platonic-reliability-challenge-2",
+      "type": "challenge",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "Your forgotten-favor scene leaves the next step a bit foggy."
+    },
+    {
+      "id": "platonic-interests-challenge-0",
+      "type": "challenge",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different downtime choices may need a two-option shortlist."
+    },
+    {
+      "id": "platonic-interests-challenge-1",
+      "type": "challenge",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your selected activity dynamic gives one wish list more airtime."
+    },
+    {
+      "id": "platonic-interests-challenge-2",
+      "type": "challenge",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined activity disagreement could use a clearer next move."
+    },
+    {
+      "id": "platonic-understanding-challenge-0",
+      "type": "challenge",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different explanation styles could use a quick “short version or full story?”"
+    },
+    {
+      "id": "platonic-understanding-challenge-1",
+      "type": "challenge",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "The selected missed-joke scene may leave the impact unaddressed."
+    },
+    {
+      "id": "platonic-understanding-challenge-2",
+      "type": "challenge",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "Your imagined misunderstanding needs more curiosity and less guessing."
+    },
+    {
+      "id": "platonic-support-challenge-0",
+      "type": "challenge",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different support preferences may mean advice is not always the opening move."
+    },
+    {
+      "id": "platonic-support-challenge-1",
+      "type": "challenge",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your selected support scene assumes more than it checks."
+    },
+    {
+      "id": "platonic-support-challenge-2",
+      "type": "challenge",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined advice detour could use a “what would help?” reset."
+    },
+    {
+      "id": "platonic-dynamics-challenge-0",
+      "type": "challenge",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different social-energy settings could benefit from an exit plan."
+    },
+    {
+      "id": "platonic-dynamics-challenge-1",
+      "type": "challenge",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your crowd-versus-quiet choice may keep one preference in the background."
+    },
+    {
+      "id": "platonic-dynamics-challenge-2",
+      "type": "challenge",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined hangout could use a more welcoming introduction."
+    },
+    {
+      "id": "platonic-repair-challenge-0",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different reset timings may need a clear “let us return at…” agreement."
+    },
+    {
+      "id": "platonic-repair-challenge-1",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your selected disagreement scene puts understanding on the back burner."
+    },
+    {
+      "id": "platonic-repair-challenge-2",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined recurring issue still needs a concrete next step."
+    },
+    {
+      "id": "platonic-overall-challenge-0",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 29
+      },
+      "text": "The overall selections leave many preferences unaligned; this is not a judgement of either person."
+    },
+    {
+      "id": "platonic-overall-challenge-1",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 49
+      },
+      "text": "Several imagined scenarios would benefit from more explicit expectation-setting."
+    },
+    {
+      "id": "platonic-overall-challenge-2",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 69
+      },
+      "text": "The overall profile mixes agreement with areas that need a little translation."
+    },
+    {
+      "id": "platonic-overall-challenge-3",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 89
+      },
+      "text": "Even a largely aligned fictional profile leaves room for individual preferences."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "platonic-communication-pattern-high",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered communication answers mostly align."
+    },
+    {
+      "id": "platonic-communication-pattern-mid",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered communication answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-communication-pattern-low",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered communication answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-communication-matching-preference",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["platonic", "communication"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on communication."
+    },
+    {
+      "id": "platonic-reliability-pattern-high",
+      "type": "pattern",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered reliability expectations answers mostly align."
+    },
+    {
+      "id": "platonic-reliability-pattern-mid",
+      "type": "pattern",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered reliability expectations answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-reliability-pattern-low",
+      "type": "pattern",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered reliability expectations answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-reliability-matching-preference",
+      "type": "pattern",
+      "category": "reliability",
+      "tags": ["platonic", "reliability"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on reliability expectations."
+    },
+    {
+      "id": "platonic-interests-pattern-high",
+      "type": "pattern",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered shared interests answers mostly align."
+    },
+    {
+      "id": "platonic-interests-pattern-mid",
+      "type": "pattern",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered shared interests answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-interests-pattern-low",
+      "type": "pattern",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered shared interests answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-interests-matching-preference",
+      "type": "pattern",
+      "category": "interests",
+      "tags": ["platonic", "interests"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on shared interests."
+    },
+    {
+      "id": "platonic-understanding-pattern-high",
+      "type": "pattern",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered mutual understanding answers mostly align."
+    },
+    {
+      "id": "platonic-understanding-pattern-mid",
+      "type": "pattern",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered mutual understanding answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-understanding-pattern-low",
+      "type": "pattern",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered mutual understanding answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-understanding-matching-preference",
+      "type": "pattern",
+      "category": "understanding",
+      "tags": ["platonic", "understanding"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on mutual understanding."
+    },
+    {
+      "id": "platonic-support-pattern-high",
+      "type": "pattern",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered support preferences answers mostly align."
+    },
+    {
+      "id": "platonic-support-pattern-mid",
+      "type": "pattern",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered support preferences answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-support-pattern-low",
+      "type": "pattern",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered support preferences answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-support-matching-preference",
+      "type": "pattern",
+      "category": "support",
+      "tags": ["platonic", "support"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on support preferences."
+    },
+    {
+      "id": "platonic-dynamics-pattern-high",
+      "type": "pattern",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered friendship dynamics answers mostly align."
+    },
+    {
+      "id": "platonic-dynamics-pattern-mid",
+      "type": "pattern",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered friendship dynamics answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-dynamics-pattern-low",
+      "type": "pattern",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered friendship dynamics answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-dynamics-matching-preference",
+      "type": "pattern",
+      "category": "dynamics",
+      "tags": ["platonic", "dynamics"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on friendship dynamics."
+    },
+    {
+      "id": "platonic-repair-pattern-high",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered conflict & repair answers mostly align."
+    },
+    {
+      "id": "platonic-repair-pattern-mid",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered conflict & repair answers mix overlap with differences."
+    },
+    {
+      "id": "platonic-repair-pattern-low",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered conflict & repair answers leave substantial differences to discuss."
+    },
+    {
+      "id": "platonic-repair-matching-preference",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["platonic", "repair"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on conflict & repair."
+    },
+    {
+      "id": "platonic-overall-high",
+      "type": "pattern",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMin": 75
+      },
+      "text": "The overall selected-answer profile leans toward alignment."
+    },
+    {
+      "id": "platonic-overall-varied",
+      "type": "pattern",
+      "category": "overall",
+      "tags": ["platonic", "overall"],
+      "conditions": {
+        "overallMax": 74
+      },
+      "text": "The overall selected-answer profile includes notable differences."
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "platonic-verdict-0-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers describe two different orbits, with plenty still to compare. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-0-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers describe two different orbits, with plenty still to compare. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-0-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers describe two different orbits, with plenty still to compare. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-0-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers describe two different orbits, with plenty still to compare. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-0-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers describe two different orbits, with plenty still to compare. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-1-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This playful profile starts with light familiarity rather than a ready-made bestie montage. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-1-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This playful profile starts with light familiarity rather than a ready-made bestie montage. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-1-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This playful profile starts with light familiarity rather than a ready-made bestie montage. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-1-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This playful profile starts with light familiarity rather than a ready-made bestie montage. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-1-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This playful profile starts with light familiarity rather than a ready-made bestie montage. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-2-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” There is a little common ground in your selections, and a few unexplored side streets. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-2-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” There is a little common ground in your selections, and a few unexplored side streets. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-2-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” There is a little common ground in your selections, and a few unexplored side streets. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-2-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” There is a little common ground in your selections, and a few unexplored side streets. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-2-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” There is a little common ground in your selections, and a few unexplored side streets. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-3-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections sketch a friendship with room to grow through low-pressure shared moments. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-3-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections sketch a friendship with room to grow through low-pressure shared moments. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-3-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections sketch a friendship with room to grow through low-pressure shared moments. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-3-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections sketch a friendship with room to grow through low-pressure shared moments. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-3-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections sketch a friendship with room to grow through low-pressure shared moments. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-4-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The imagined pair has enough overlap for a side quest, even if the route needs discussion. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-4-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The imagined pair has enough overlap for a side quest, even if the route needs discussion. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-4-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The imagined pair has enough overlap for a side quest, even if the route needs discussion. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-4-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The imagined pair has enough overlap for a side quest, even if the route needs discussion. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-4-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The imagined pair has enough overlap for a side quest, even if the route needs discussion. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-5-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A useful mix of common ground and personal preferences shows up in the entered answers. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-5-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A useful mix of common ground and personal preferences shows up in the entered answers. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-5-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A useful mix of common ground and personal preferences shows up in the entered answers. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-5-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A useful mix of common ground and personal preferences shows up in the entered answers. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-5-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A useful mix of common ground and personal preferences shows up in the entered answers. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-6-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The answers lean toward an easy shared rhythm, without requiring identical personalities. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-6-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The answers lean toward an easy shared rhythm, without requiring identical personalities. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-6-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The answers lean toward an easy shared rhythm, without requiring identical personalities. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-6-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The answers lean toward an easy shared rhythm, without requiring identical personalities. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-6-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The answers lean toward an easy shared rhythm, without requiring identical personalities. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-7-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This fictional duo has plenty of aligned choices and still gets to keep individual tastes. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-7-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This fictional duo has plenty of aligned choices and still gets to keep individual tastes. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-7-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This fictional duo has plenty of aligned choices and still gets to keep individual tastes. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-7-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This fictional duo has plenty of aligned choices and still gets to keep individual tastes. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-7-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This fictional duo has plenty of aligned choices and still gets to keep individual tastes. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-8-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many of the choices entered land in neighboring constellations; the shared rhythm is a theme. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-8-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many of the choices entered land in neighboring constellations; the shared rhythm is a theme. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-8-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many of the choices entered land in neighboring constellations; the shared rhythm is a theme. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-8-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many of the choices entered land in neighboring constellations; the shared rhythm is a theme. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-8-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many of the choices entered land in neighboring constellations; the shared rhythm is a theme. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    },
+    {
+      "id": "platonic-verdict-9-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your entered answers line up across much of this little universe: cue the fictional bestie credits. {balance} A tiny shared ritual could be a fun next scene, provided both actually want it."
+    },
+    {
+      "id": "platonic-verdict-9-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your entered answers line up across much of this little universe: cue the fictional bestie credits. {balance} Let different preferences have a seat at the snack table too."
+    },
+    {
+      "id": "platonic-verdict-9-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your entered answers line up across much of this little universe: cue the fictional bestie credits. {balance} A clear invitation beats expecting anyone to decode the group chat."
+    },
+    {
+      "id": "platonic-verdict-9-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your entered answers line up across much of this little universe: cue the fictional bestie credits. {balance} Keep the fun optional; nobody owes a friendship performance to a score."
+    },
+    {
+      "id": "platonic-verdict-9-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["platonic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your entered answers line up across much of this little universe: cue the fictional bestie credits. {balance} Real friendship develops outside this quiz, one freely chosen interaction at a time."
+    }
+  ]
+}

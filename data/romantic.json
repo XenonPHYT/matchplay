@@ -1,0 +1,2344 @@
+{
+  "id": "romantic",
+  "version": 1,
+  "categories": [
+    {
+      "id": "communication",
+      "label": "Communication expectations",
+      "weight": 1
+    },
+    {
+      "id": "affection",
+      "label": "Affection preferences",
+      "weight": 1
+    },
+    {
+      "id": "emotional",
+      "label": "Emotional pace",
+      "weight": 1
+    },
+    {
+      "id": "expectations",
+      "label": "Shared expectations",
+      "weight": 1
+    },
+    {
+      "id": "quality_time",
+      "label": "Quality-time preferences",
+      "weight": 1
+    },
+    {
+      "id": "repair",
+      "label": "Conflict & repair",
+      "weight": 1
+    },
+    {
+      "id": "future",
+      "label": "Future-oriented preferences",
+      "weight": 1
+    }
+  ],
+  "questions": [
+    {
+      "id": "romantic-communication-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "communication",
+      "text": "A comfortable everyday check-in rhythm would be…",
+      "weight": 1,
+      "tags": ["romantic", "communication", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-communication-individual-0",
+          "text": "Several small messages during the day",
+          "value": 0
+        },
+        {
+          "id": "romantic-communication-individual-1",
+          "text": "One meaningful daily catch-up",
+          "value": 1
+        },
+        {
+          "id": "romantic-communication-individual-2",
+          "text": "A few substantial catch-ups a week",
+          "value": 2
+        },
+        {
+          "id": "romantic-communication-individual-3",
+          "text": "Spontaneous contact without a routine",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-communication-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "communication",
+      "text": "For this imagined connection, contact expectations are…",
+      "weight": 1,
+      "tags": ["romantic", "communication", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-communication-comparative-0",
+          "text": "Discussed openly and flexibly",
+          "score": 100
+        },
+        {
+          "id": "romantic-communication-comparative-1",
+          "text": "Mentioned, with room to adjust",
+          "score": 70
+        },
+        {
+          "id": "romantic-communication-comparative-2",
+          "text": "Mostly guessed from reply timing",
+          "score": 35
+        },
+        {
+          "id": "romantic-communication-comparative-3",
+          "text": "Left entirely unspoken",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-communication-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "communication",
+      "text": "A message seems ambiguous. Imagine the pair…",
+      "weight": 1,
+      "tags": ["romantic", "communication", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-communication-situational-0",
+          "text": "Checking the meaning directly and kindly",
+          "score": 100
+        },
+        {
+          "id": "romantic-communication-situational-1",
+          "text": "Waiting for a calm moment to ask",
+          "score": 70
+        },
+        {
+          "id": "romantic-communication-situational-2",
+          "text": "Reading increasingly into the wording",
+          "score": 35
+        },
+        {
+          "id": "romantic-communication-situational-3",
+          "text": "Treating a guess as the final answer",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-affection-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "affection",
+      "text": "A small, non-physical gesture that feels most appealing is…",
+      "weight": 1,
+      "tags": ["romantic", "affection", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-affection-individual-0",
+          "text": "A thoughtful encouraging message",
+          "value": 0
+        },
+        {
+          "id": "romantic-affection-individual-1",
+          "text": "Undistracted time together",
+          "value": 1
+        },
+        {
+          "id": "romantic-affection-individual-2",
+          "text": "A practical act of help",
+          "value": 2
+        },
+        {
+          "id": "romantic-affection-individual-3",
+          "text": "A tiny, personal surprise",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-affection-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "affection",
+      "text": "When showing appreciation, imagine this pair…",
+      "weight": 1,
+      "tags": ["romantic", "affection", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-affection-comparative-0",
+          "text": "Asking what gestures each enjoys",
+          "score": 100
+        },
+        {
+          "id": "romantic-affection-comparative-1",
+          "text": "Trying varied gestures and noticing responses",
+          "score": 70
+        },
+        {
+          "id": "romantic-affection-comparative-2",
+          "text": "Repeating only their own preferred gesture",
+          "score": 35
+        },
+        {
+          "id": "romantic-affection-comparative-3",
+          "text": "Assuming appreciation needs no expression",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-affection-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "affection",
+      "text": "A planned surprise is not the other person’s style. They…",
+      "weight": 1,
+      "tags": ["romantic", "affection", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-affection-situational-0",
+          "text": "Ask what would feel more comfortable",
+          "score": 100
+        },
+        {
+          "id": "romantic-affection-situational-1",
+          "text": "Choose a simpler alternative together",
+          "score": 70
+        },
+        {
+          "id": "romantic-affection-situational-2",
+          "text": "Insist the surprise should be enjoyed",
+          "score": 35
+        },
+        {
+          "id": "romantic-affection-situational-3",
+          "text": "Avoid discussing the mismatch",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-emotional-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "emotional",
+      "text": "After a busy day, a comfortable transition into shared time is…",
+      "weight": 1,
+      "tags": ["romantic", "emotional", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-emotional-individual-0",
+          "text": "Talk immediately about the day",
+          "value": 0
+        },
+        {
+          "id": "romantic-emotional-individual-1",
+          "text": "Have a short quiet reset first",
+          "value": 1
+        },
+        {
+          "id": "romantic-emotional-individual-2",
+          "text": "Do a shared activity before talking",
+          "value": 2
+        },
+        {
+          "id": "romantic-emotional-individual-3",
+          "text": "Keep the evening spacious and low-pressure",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-emotional-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "emotional",
+      "text": "When their energy levels differ, imagine…",
+      "weight": 1,
+      "tags": ["romantic", "emotional", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-emotional-comparative-0",
+          "text": "Naming their needs and finding a middle ground",
+          "score": 100
+        },
+        {
+          "id": "romantic-emotional-comparative-1",
+          "text": "Adjusting the plan for that evening",
+          "score": 70
+        },
+        {
+          "id": "romantic-emotional-comparative-2",
+          "text": "Expecting matching enthusiasm regardless",
+          "score": 35
+        },
+        {
+          "id": "romantic-emotional-comparative-3",
+          "text": "Making assumptions about the difference",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-emotional-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "emotional",
+      "text": "One wants conversation while one needs quiet. They…",
+      "weight": 1,
+      "tags": ["romantic", "emotional", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-emotional-situational-0",
+          "text": "Set a quiet interval and a later check-in",
+          "score": 100
+        },
+        {
+          "id": "romantic-emotional-situational-1",
+          "text": "Choose a gentler way to spend time",
+          "score": 70
+        },
+        {
+          "id": "romantic-emotional-situational-2",
+          "text": "Push ahead with the original plan",
+          "score": 35
+        },
+        {
+          "id": "romantic-emotional-situational-3",
+          "text": "Withdraw without explaining the preference",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-expectations-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "expectations",
+      "text": "A comfortable approach to making shared plans is…",
+      "weight": 1,
+      "tags": ["romantic", "expectations", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-expectations-individual-0",
+          "text": "Schedule ahead and keep a routine",
+          "value": 0
+        },
+        {
+          "id": "romantic-expectations-individual-1",
+          "text": "Plan the important things, improvise the rest",
+          "value": 1
+        },
+        {
+          "id": "romantic-expectations-individual-2",
+          "text": "Decide a few days ahead",
+          "value": 2
+        },
+        {
+          "id": "romantic-expectations-individual-3",
+          "text": "Keep most plans spontaneous",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-expectations-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "expectations",
+      "text": "In this hypothetical connection, expectations about time together are…",
+      "weight": 1,
+      "tags": ["romantic", "expectations", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-expectations-comparative-0",
+          "text": "Talked through and revisited",
+          "score": 100
+        },
+        {
+          "id": "romantic-expectations-comparative-1",
+          "text": "Broadly shared but still being refined",
+          "score": 70
+        },
+        {
+          "id": "romantic-expectations-comparative-2",
+          "text": "Assumed rather than compared",
+          "score": 35
+        },
+        {
+          "id": "romantic-expectations-comparative-3",
+          "text": "Frequently different and left unspoken",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-expectations-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "expectations",
+      "text": "Two plans compete for the same afternoon. Imagine…",
+      "weight": 1,
+      "tags": ["romantic", "expectations", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-expectations-situational-0",
+          "text": "Comparing priorities and choosing together",
+          "score": 100
+        },
+        {
+          "id": "romantic-expectations-situational-1",
+          "text": "Rescheduling one with a clear alternative",
+          "score": 70
+        },
+        {
+          "id": "romantic-expectations-situational-2",
+          "text": "One person deciding without checking",
+          "score": 35
+        },
+        {
+          "id": "romantic-expectations-situational-3",
+          "text": "Both waiting for the other to fix it",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-quality_time-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "quality_time",
+      "text": "The most appealing low-pressure time together would be…",
+      "weight": 1,
+      "tags": ["romantic", "quality_time", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-quality_time-individual-0",
+          "text": "An outing with a little adventure",
+          "value": 0
+        },
+        {
+          "id": "romantic-quality_time-individual-1",
+          "text": "Trying a new creative activity",
+          "value": 1
+        },
+        {
+          "id": "romantic-quality_time-individual-2",
+          "text": "A familiar meal and good conversation",
+          "value": 2
+        },
+        {
+          "id": "romantic-quality_time-individual-3",
+          "text": "A quiet evening doing separate things nearby",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-quality_time-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "quality_time",
+      "text": "While spending time together, imagine the pair…",
+      "weight": 1,
+      "tags": ["romantic", "quality_time", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-quality_time-comparative-0",
+          "text": "Agreeing on what present and available means",
+          "score": 100
+        },
+        {
+          "id": "romantic-quality_time-comparative-1",
+          "text": "Usually finding a rhythm with occasional reminders",
+          "score": 70
+        },
+        {
+          "id": "romantic-quality_time-comparative-2",
+          "text": "Wanting quite different levels of attention",
+          "score": 35
+        },
+        {
+          "id": "romantic-quality_time-comparative-3",
+          "text": "Never discussing distractions or availability",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-quality_time-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "quality_time",
+      "text": "A free evening suddenly appears. They…",
+      "weight": 1,
+      "tags": ["romantic", "quality_time", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-quality_time-situational-0",
+          "text": "Compare wishes and choose something that suits both",
+          "score": 100
+        },
+        {
+          "id": "romantic-quality_time-situational-1",
+          "text": "Take turns choosing a simple activity",
+          "score": 70
+        },
+        {
+          "id": "romantic-quality_time-situational-2",
+          "text": "Default to one person’s favorite again",
+          "score": 35
+        },
+        {
+          "id": "romantic-quality_time-situational-3",
+          "text": "Spend the evening negotiating without naming preferences",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-repair-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "repair",
+      "text": "After a small disagreement, the preferred timing for a calm talk is…",
+      "weight": 1,
+      "tags": ["romantic", "repair", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-repair-individual-0",
+          "text": "As soon as both can speak calmly",
+          "value": 0
+        },
+        {
+          "id": "romantic-repair-individual-1",
+          "text": "After a short break",
+          "value": 1
+        },
+        {
+          "id": "romantic-repair-individual-2",
+          "text": "Later, with a specific return time",
+          "value": 2
+        },
+        {
+          "id": "romantic-repair-individual-3",
+          "text": "After writing down the main points",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-repair-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "repair",
+      "text": "When an opinion differs, picture the pair…",
+      "weight": 1,
+      "tags": ["romantic", "repair", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-repair-comparative-0",
+          "text": "Exploring the issue without personal labels",
+          "score": 100
+        },
+        {
+          "id": "romantic-repair-comparative-1",
+          "text": "Taking a pause and coming back",
+          "score": 70
+        },
+        {
+          "id": "romantic-repair-comparative-2",
+          "text": "Keeping score of who is right",
+          "score": 35
+        },
+        {
+          "id": "romantic-repair-comparative-3",
+          "text": "Hoping it disappears without discussion",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-repair-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "repair",
+      "text": "A minor misunderstanding repeats. They…",
+      "weight": 1,
+      "tags": ["romantic", "repair", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-repair-situational-0",
+          "text": "Try one agreed adjustment and revisit it",
+          "score": 100
+        },
+        {
+          "id": "romantic-repair-situational-1",
+          "text": "Compare what each thought was agreed",
+          "score": 70
+        },
+        {
+          "id": "romantic-repair-situational-2",
+          "text": "Repeat the argument with the same assumptions",
+          "score": 35
+        },
+        {
+          "id": "romantic-repair-situational-3",
+          "text": "Change the subject each time",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-future-individual",
+      "type": "individual",
+      "mode": "romantic",
+      "category": "future",
+      "text": "For a purely hypothetical shared project, the preferred approach is…",
+      "weight": 1,
+      "tags": ["romantic", "future", "individual"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-future-individual-0",
+          "text": "A clear long-range plan",
+          "value": 0
+        },
+        {
+          "id": "romantic-future-individual-1",
+          "text": "A broad direction with flexible milestones",
+          "value": 1
+        },
+        {
+          "id": "romantic-future-individual-2",
+          "text": "A small first experiment",
+          "value": 2
+        },
+        {
+          "id": "romantic-future-individual-3",
+          "text": "Explore possibilities without a fixed destination",
+          "value": 3
+        }
+      ]
+    },
+    {
+      "id": "romantic-future-comparative",
+      "type": "comparative",
+      "mode": "romantic",
+      "category": "future",
+      "text": "When imagining future activities, the pair…",
+      "weight": 1,
+      "tags": ["romantic", "future", "comparative"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-future-comparative-0",
+          "text": "Compare hopes without treating them as promises",
+          "score": 100
+        },
+        {
+          "id": "romantic-future-comparative-1",
+          "text": "Share broad ideas and leave details flexible",
+          "score": 70
+        },
+        {
+          "id": "romantic-future-comparative-2",
+          "text": "Assume their ideas are already the same",
+          "score": 35
+        },
+        {
+          "id": "romantic-future-comparative-3",
+          "text": "Avoid checking whether the ideas differ",
+          "score": 0
+        }
+      ]
+    },
+    {
+      "id": "romantic-future-situational",
+      "type": "situational",
+      "mode": "romantic",
+      "category": "future",
+      "text": "Their ideas for a future trip differ. Imagine them…",
+      "weight": 1,
+      "tags": ["romantic", "future", "situational"],
+      "help": "Choose the preferences or imagined reactions you want this profile to reflect. These are not verified facts.",
+      "options": [
+        {
+          "id": "romantic-future-situational-0",
+          "text": "Discussing priorities before choosing a route",
+          "score": 100
+        },
+        {
+          "id": "romantic-future-situational-1",
+          "text": "Trying a small local version first",
+          "score": 70
+        },
+        {
+          "id": "romantic-future-situational-2",
+          "text": "One giving up their idea without discussing it",
+          "score": 35
+        },
+        {
+          "id": "romantic-future-situational-3",
+          "text": "Booking separately without clarifying the plan",
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "romantic-class-0",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Stranger Chemistry"
+    },
+    {
+      "id": "romantic-class-1",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Passing Sparks"
+    },
+    {
+      "id": "romantic-class-2",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Curious Connection"
+    },
+    {
+      "id": "romantic-class-3",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Intriguing Possibility"
+    },
+    {
+      "id": "romantic-class-4",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Budding Romance"
+    },
+    {
+      "id": "romantic-class-5",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Warm Chemistry"
+    },
+    {
+      "id": "romantic-class-6",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Magnetic Attraction"
+    },
+    {
+      "id": "romantic-class-7",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Starlit Connection"
+    },
+    {
+      "id": "romantic-class-8",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Storybook Chemistry"
+    },
+    {
+      "id": "romantic-class-9",
+      "type": "classification",
+      "category": "overall",
+      "tags": ["romantic", "score-band", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Cosmic-Level Spark"
+    }
+  ],
+  "strengths": [
+    {
+      "id": "romantic-communication-strength-0",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered check-in rhythms share a similar pace."
+    },
+    {
+      "id": "romantic-communication-strength-1",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your contact-expectation scene makes the invisible more discussable."
+    },
+    {
+      "id": "romantic-communication-strength-2",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined ambiguous message gets a question rather than a plot twist."
+    },
+    {
+      "id": "romantic-communication-strength-3",
+      "type": "strength",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The communication answers lean toward clarity without constant availability."
+    },
+    {
+      "id": "romantic-affection-strength-0",
+      "type": "strength",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The appreciation preferences entered share a starting point."
+    },
+    {
+      "id": "romantic-affection-strength-1",
+      "type": "strength",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your appreciation scene makes room for individual tastes."
+    },
+    {
+      "id": "romantic-affection-strength-2",
+      "type": "strength",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined surprise can be adjusted without a grand production."
+    },
+    {
+      "id": "romantic-affection-strength-3",
+      "type": "strength",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The affection answers favor thoughtful fit over impressive spectacle."
+    },
+    {
+      "id": "romantic-emotional-strength-0",
+      "type": "strength",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The transition preferences entered have a similar emotional tempo."
+    },
+    {
+      "id": "romantic-emotional-strength-1",
+      "type": "strength",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your energy-level scene allows different moods to coexist."
+    },
+    {
+      "id": "romantic-emotional-strength-2",
+      "type": "strength",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined quiet-versus-chat moment has a return point."
+    },
+    {
+      "id": "romantic-emotional-strength-3",
+      "type": "strength",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The emotional-pace answers favor stated needs over mood detective work."
+    },
+    {
+      "id": "romantic-expectations-strength-0",
+      "type": "strength",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered planning styles have a similar horizon."
+    },
+    {
+      "id": "romantic-expectations-strength-1",
+      "type": "strength",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your expectation scene gives assumptions a place to be checked."
+    },
+    {
+      "id": "romantic-expectations-strength-2",
+      "type": "strength",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined scheduling collision gets a shared decision."
+    },
+    {
+      "id": "romantic-expectations-strength-3",
+      "type": "strength",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The expectation answers favor a conversation over an unwritten rulebook."
+    },
+    {
+      "id": "romantic-quality_time-strength-0",
+      "type": "strength",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered quality-time styles have a similar atmosphere."
+    },
+    {
+      "id": "romantic-quality_time-strength-1",
+      "type": "strength",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your time-together scene makes attention expectations discussable."
+    },
+    {
+      "id": "romantic-quality_time-strength-2",
+      "type": "strength",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined free evening has room for both preferences."
+    },
+    {
+      "id": "romantic-quality_time-strength-3",
+      "type": "strength",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "These quality-time answers value fit more than an elaborate itinerary."
+    },
+    {
+      "id": "romantic-repair-strength-0",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered repair timing preferences are close together."
+    },
+    {
+      "id": "romantic-repair-strength-1",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your disagreement scene keeps labels out of the conversation."
+    },
+    {
+      "id": "romantic-repair-strength-2",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined repeated misunderstanding gets a small experiment."
+    },
+    {
+      "id": "romantic-repair-strength-3",
+      "type": "strength",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The repair answers lean toward a next step rather than a winner."
+    },
+    {
+      "id": "romantic-future-strength-0",
+      "type": "strength",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The entered project styles share a similar planning distance."
+    },
+    {
+      "id": "romantic-future-strength-1",
+      "type": "strength",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "comparative",
+        "evidenceMin": 65
+      },
+      "text": "Your future-activity scene separates a possibility from a promise."
+    },
+    {
+      "id": "romantic-future-strength-2",
+      "type": "strength",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "situational",
+        "evidenceMin": 65
+      },
+      "text": "The imagined trip difference gets a useful first conversation."
+    },
+    {
+      "id": "romantic-future-strength-3",
+      "type": "strength",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 65,
+        "questionType": "individual",
+        "evidenceMin": 65
+      },
+      "text": "The future-oriented answers favor explicit possibilities, not destiny claims."
+    },
+    {
+      "id": "romantic-overall-strength-0",
+      "type": "strength",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 75
+      },
+      "text": "Several categories share a high-scoring rhythm in the entered answers."
+    },
+    {
+      "id": "romantic-overall-strength-1",
+      "type": "strength",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 85
+      },
+      "text": "The overall result includes substantial common ground across these selected scenarios."
+    }
+  ],
+  "challenges": [
+    {
+      "id": "romantic-communication-challenge-0",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different check-in rhythms may need an expectation-setting conversation."
+    },
+    {
+      "id": "romantic-communication-challenge-1",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your contact scenario leaves room for timing to become a guessing game."
+    },
+    {
+      "id": "romantic-communication-challenge-2",
+      "type": "challenge",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined ambiguous message needs context, not extra punctuation analysis."
+    },
+    {
+      "id": "romantic-affection-challenge-0",
+      "type": "challenge",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different appreciation styles could use a small “what feels thoughtful?” check-in."
+    },
+    {
+      "id": "romantic-affection-challenge-1",
+      "type": "challenge",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your chosen appreciation scene gives personal preferences less room."
+    },
+    {
+      "id": "romantic-affection-challenge-2",
+      "type": "challenge",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined surprise mismatch needs flexibility rather than a sales pitch."
+    },
+    {
+      "id": "romantic-emotional-challenge-0",
+      "type": "challenge",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different transition preferences may call for a short decompression window."
+    },
+    {
+      "id": "romantic-emotional-challenge-1",
+      "type": "challenge",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your energy-level scenario assumes the same pace for both."
+    },
+    {
+      "id": "romantic-emotional-challenge-2",
+      "type": "challenge",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined quiet moment could use a clear check-in rather than a guess."
+    },
+    {
+      "id": "romantic-expectations-challenge-0",
+      "type": "challenge",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different planning horizons could use one shared calendar conversation."
+    },
+    {
+      "id": "romantic-expectations-challenge-1",
+      "type": "challenge",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your expectation scenario leaves important preferences implicit."
+    },
+    {
+      "id": "romantic-expectations-challenge-2",
+      "type": "challenge",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined scheduling collision could use a decision made together."
+    },
+    {
+      "id": "romantic-quality_time-challenge-0",
+      "type": "challenge",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different quality-time styles could use a mix of active and quiet plans."
+    },
+    {
+      "id": "romantic-quality_time-challenge-1",
+      "type": "challenge",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your time-together scene leaves attention expectations a little blurry."
+    },
+    {
+      "id": "romantic-quality_time-challenge-2",
+      "type": "challenge",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined free evening needs two preferences on the table."
+    },
+    {
+      "id": "romantic-repair-challenge-0",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different repair timings may need an agreed return point."
+    },
+    {
+      "id": "romantic-repair-challenge-1",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your disagreement scenario puts the scoreboard ahead of the issue."
+    },
+    {
+      "id": "romantic-repair-challenge-2",
+      "type": "challenge",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined repeated misunderstanding still needs a shared adjustment."
+    },
+    {
+      "id": "romantic-future-challenge-0",
+      "type": "challenge",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMax": 64
+      },
+      "text": "Different project styles may need a shared first milestone."
+    },
+    {
+      "id": "romantic-future-challenge-1",
+      "type": "challenge",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "questionType": "comparative",
+        "evidenceMax": 64
+      },
+      "text": "Your future-activity scene assumes agreement before checking it."
+    },
+    {
+      "id": "romantic-future-challenge-2",
+      "type": "challenge",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "questionType": "situational",
+        "evidenceMax": 64
+      },
+      "text": "The imagined trip plan needs a discussion before anyone packs a bag."
+    },
+    {
+      "id": "romantic-overall-challenge-0",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 29
+      },
+      "text": "The overall selections leave many preferences unaligned; this is not a judgement of either person."
+    },
+    {
+      "id": "romantic-overall-challenge-1",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 49
+      },
+      "text": "Several imagined scenarios would benefit from more explicit expectation-setting."
+    },
+    {
+      "id": "romantic-overall-challenge-2",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 69
+      },
+      "text": "The overall profile mixes agreement with areas that need a little translation."
+    },
+    {
+      "id": "romantic-overall-challenge-3",
+      "type": "challenge",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 89
+      },
+      "text": "Even a largely aligned fictional profile leaves room for individual preferences."
+    }
+  ],
+  "patterns": [
+    {
+      "id": "romantic-communication-pattern-high",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered communication expectations answers mostly align."
+    },
+    {
+      "id": "romantic-communication-pattern-mid",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered communication expectations answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-communication-pattern-low",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered communication expectations answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-communication-matching-preference",
+      "type": "pattern",
+      "category": "communication",
+      "tags": ["romantic", "communication"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on communication expectations."
+    },
+    {
+      "id": "romantic-affection-pattern-high",
+      "type": "pattern",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered affection preferences answers mostly align."
+    },
+    {
+      "id": "romantic-affection-pattern-mid",
+      "type": "pattern",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered affection preferences answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-affection-pattern-low",
+      "type": "pattern",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered affection preferences answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-affection-matching-preference",
+      "type": "pattern",
+      "category": "affection",
+      "tags": ["romantic", "affection"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on affection preferences."
+    },
+    {
+      "id": "romantic-emotional-pattern-high",
+      "type": "pattern",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered emotional pace answers mostly align."
+    },
+    {
+      "id": "romantic-emotional-pattern-mid",
+      "type": "pattern",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered emotional pace answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-emotional-pattern-low",
+      "type": "pattern",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered emotional pace answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-emotional-matching-preference",
+      "type": "pattern",
+      "category": "emotional",
+      "tags": ["romantic", "emotional"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on emotional pace."
+    },
+    {
+      "id": "romantic-expectations-pattern-high",
+      "type": "pattern",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered shared expectations answers mostly align."
+    },
+    {
+      "id": "romantic-expectations-pattern-mid",
+      "type": "pattern",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered shared expectations answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-expectations-pattern-low",
+      "type": "pattern",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered shared expectations answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-expectations-matching-preference",
+      "type": "pattern",
+      "category": "expectations",
+      "tags": ["romantic", "expectations"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on shared expectations."
+    },
+    {
+      "id": "romantic-quality_time-pattern-high",
+      "type": "pattern",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered quality-time preferences answers mostly align."
+    },
+    {
+      "id": "romantic-quality_time-pattern-mid",
+      "type": "pattern",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered quality-time preferences answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-quality_time-pattern-low",
+      "type": "pattern",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered quality-time preferences answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-quality_time-matching-preference",
+      "type": "pattern",
+      "category": "quality_time",
+      "tags": ["romantic", "quality_time"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on quality-time preferences."
+    },
+    {
+      "id": "romantic-repair-pattern-high",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered conflict & repair answers mostly align."
+    },
+    {
+      "id": "romantic-repair-pattern-mid",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered conflict & repair answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-repair-pattern-low",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered conflict & repair answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-repair-matching-preference",
+      "type": "pattern",
+      "category": "repair",
+      "tags": ["romantic", "repair"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on conflict & repair."
+    },
+    {
+      "id": "romantic-future-pattern-high",
+      "type": "pattern",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 75,
+        "categoryMax": 100
+      },
+      "text": "The entered future-oriented preferences answers mostly align."
+    },
+    {
+      "id": "romantic-future-pattern-mid",
+      "type": "pattern",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 40,
+        "categoryMax": 74
+      },
+      "text": "The entered future-oriented preferences answers mix overlap with differences."
+    },
+    {
+      "id": "romantic-future-pattern-low",
+      "type": "pattern",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "categoryMin": 0,
+        "categoryMax": 39
+      },
+      "text": "The entered future-oriented preferences answers leave substantial differences to discuss."
+    },
+    {
+      "id": "romantic-future-matching-preference",
+      "type": "pattern",
+      "category": "future",
+      "tags": ["romantic", "future"],
+      "conditions": {
+        "questionType": "individual",
+        "evidenceMin": 100
+      },
+      "text": "The same option was entered for both people on future-oriented preferences."
+    },
+    {
+      "id": "romantic-overall-high",
+      "type": "pattern",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMin": 75
+      },
+      "text": "The overall selected-answer profile leans toward alignment."
+    },
+    {
+      "id": "romantic-overall-varied",
+      "type": "pattern",
+      "category": "overall",
+      "tags": ["romantic", "overall"],
+      "conditions": {
+        "overallMax": 74
+      },
+      "text": "The overall selected-answer profile includes notable differences."
+    }
+  ],
+  "verdicts": [
+    {
+      "id": "romantic-verdict-0-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers suggest contrasting preferences, not a verdict on anyone’s feelings. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-0-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers suggest contrasting preferences, not a verdict on anyone’s feelings. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-0-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers suggest contrasting preferences, not a verdict on anyone’s feelings. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-0-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers suggest contrasting preferences, not a verdict on anyone’s feelings. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-0-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-0"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 9
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered answers suggest contrasting preferences, not a verdict on anyone’s feelings. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-1-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a few sparks and several preferences worth comparing. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-1-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a few sparks and several preferences worth comparing. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-1-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a few sparks and several preferences worth comparing. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-1-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a few sparks and several preferences worth comparing. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-1-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-1"],
+      "conditions": {
+        "overallMin": 10,
+        "overallMax": 19
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a few sparks and several preferences worth comparing. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-2-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections suggest curiosity-sized common ground rather than a ready-written love story. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-2-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections suggest curiosity-sized common ground rather than a ready-written love story. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-2-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections suggest curiosity-sized common ground rather than a ready-written love story. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-2-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections suggest curiosity-sized common ground rather than a ready-written love story. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-2-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-2"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 29
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections suggest curiosity-sized common ground rather than a ready-written love story. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-3-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A few compatible rhythms appear in the entered answers, alongside useful differences to name. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-3-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A few compatible rhythms appear in the entered answers, alongside useful differences to name. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-3-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A few compatible rhythms appear in the entered answers, alongside useful differences to name. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-3-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A few compatible rhythms appear in the entered answers, alongside useful differences to name. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-3-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-3"],
+      "conditions": {
+        "overallMin": 30,
+        "overallMax": 39
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” A few compatible rhythms appear in the entered answers, alongside useful differences to name. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-4-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The playful profile leans toward a budding possibility with space for explicit expectations. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-4-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The playful profile leans toward a budding possibility with space for explicit expectations. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-4-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The playful profile leans toward a budding possibility with space for explicit expectations. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-4-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The playful profile leans toward a budding possibility with space for explicit expectations. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-4-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-4"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 49
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The playful profile leans toward a budding possibility with space for explicit expectations. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-5-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections describe some warm overlap, with room for each person’s preferred pace. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-5-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections describe some warm overlap, with room for each person’s preferred pace. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-5-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections describe some warm overlap, with room for each person’s preferred pace. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-5-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections describe some warm overlap, with room for each person’s preferred pace. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-5-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-5"],
+      "conditions": {
+        "overallMin": 50,
+        "overallMax": 59
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Your selections describe some warm overlap, with room for each person’s preferred pace. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-6-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered choices create an energetic fictional pairing, with several rhythms in step. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-6-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered choices create an energetic fictional pairing, with several rhythms in step. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-6-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered choices create an energetic fictional pairing, with several rhythms in step. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-6-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered choices create an energetic fictional pairing, with several rhythms in step. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-6-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-6"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 69
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The entered choices create an energetic fictional pairing, with several rhythms in step. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-7-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a strong shared beat in the preferences you selected. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-7-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a strong shared beat in the preferences you selected. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-7-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a strong shared beat in the preferences you selected. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-7-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a strong shared beat in the preferences you selected. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-7-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-7"],
+      "conditions": {
+        "overallMin": 70,
+        "overallMax": 79
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” This imagined connection has a strong shared beat in the preferences you selected. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-8-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many entered preferences align in this playful profile; a storybook label is a flourish, not a forecast. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-8-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many entered preferences align in this playful profile; a storybook label is a flourish, not a forecast. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-8-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many entered preferences align in this playful profile; a storybook label is a flourish, not a forecast. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-8-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many entered preferences align in this playful profile; a storybook label is a flourish, not a forecast. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-8-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-8"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 89
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” Many entered preferences align in this playful profile; a storybook label is a flourish, not a forecast. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    },
+    {
+      "id": "romantic-verdict-9-0",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The selected answers share a notably consistent rhythm: a cosmic spark in this fictional answer-world. {balance} A low-pressure conversation can do more than any entertainment score."
+    },
+    {
+      "id": "romantic-verdict-9-1",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The selected answers share a notably consistent rhythm: a cosmic spark in this fictional answer-world. {balance} Keep any next step mutual, comfortable and free from score-based expectations."
+    },
+    {
+      "id": "romantic-verdict-9-2",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The selected answers share a notably consistent rhythm: a cosmic spark in this fictional answer-world. {balance} A preference match is not evidence of attraction, consent or relationship readiness."
+    },
+    {
+      "id": "romantic-verdict-9-3",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The selected answers share a notably consistent rhythm: a cosmic spark in this fictional answer-world. {balance} Let real communication, not a fictional label, guide any real-world next step."
+    },
+    {
+      "id": "romantic-verdict-9-4",
+      "type": "verdict",
+      "category": "overall",
+      "tags": ["romantic", "approved-template", "band-9"],
+      "conditions": {
+        "overallMin": 90,
+        "overallMax": 100
+      },
+      "text": "Based on the answers entered, {a} and {b} receive the playful label “{classification}.” The selected answers share a notably consistent rhythm: a cosmic spark in this fictional answer-world. {balance} Nobody owes a romantic response to an answer pattern, however sparkly the result looks."
+    }
+  ]
+}

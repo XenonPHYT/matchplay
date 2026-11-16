@@ -1,0 +1,303 @@
+{
+  "id": "shared",
+  "version": 1,
+  "rarity": [
+    {
+      "id": "tier-0",
+      "type": "rarity",
+      "category": "overall",
+      "tags": ["decorative", "not-statistical"],
+      "conditions": {
+        "overallMin": 0,
+        "overallMax": 19
+      },
+      "text": "Little glimmer"
+    },
+    {
+      "id": "tier-1",
+      "type": "rarity",
+      "category": "overall",
+      "tags": ["decorative", "not-statistical"],
+      "conditions": {
+        "overallMin": 20,
+        "overallMax": 39
+      },
+      "text": "Curious flicker"
+    },
+    {
+      "id": "tier-2",
+      "type": "rarity",
+      "category": "overall",
+      "tags": ["decorative", "not-statistical"],
+      "conditions": {
+        "overallMin": 40,
+        "overallMax": 59
+      },
+      "text": "Steady shimmer"
+    },
+    {
+      "id": "tier-3",
+      "type": "rarity",
+      "category": "overall",
+      "tags": ["decorative", "not-statistical"],
+      "conditions": {
+        "overallMin": 60,
+        "overallMax": 79
+      },
+      "text": "Bright constellation"
+    },
+    {
+      "id": "tier-4",
+      "type": "rarity",
+      "category": "overall",
+      "tags": ["decorative", "not-statistical"],
+      "conditions": {
+        "overallMin": 80,
+        "overallMax": 100
+      },
+      "text": "Supernova sparkle"
+    }
+  ],
+  "templates": [
+    {
+      "id": "aligned",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Across the entered categories, the main theme is shared rhythm rather than verified real-world compatibility."
+    },
+    {
+      "id": "mixed",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "The entered categories show both overlap and differences; an overall score should not hide that mix."
+    },
+    {
+      "id": "divergent",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "The entered categories mostly point to different preferences; difference is not a diagnosis or a relationship forecast."
+    },
+    {
+      "id": "fallback-strength",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Common ground is still something to explore; no strong alignment pattern was selected here."
+    },
+    {
+      "id": "fallback-challenge",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "No major friction pattern was selected by these rules. That is not a guarantee of an easy relationship."
+    },
+    {
+      "id": "fallback-pattern",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "This is a snapshot of the answers entered, not a fact about either person."
+    },
+    {
+      "id": "fallback-verdict",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Based on the answers entered, this playful profile is a conversation prompt, not a conclusion about anyone’s feelings."
+    },
+    {
+      "id": "intro",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "One operator enters both sets of answers. The other person does not need to be here."
+    },
+    {
+      "id": "privacy",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Names, answers and photos stay in this tab’s memory. The application sends none of them to a server."
+    },
+    {
+      "id": "disclaimer",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Fictional entertainment only. This profile reflects the operator’s selected answers, not verified feelings, identity, loyalty or private thoughts."
+    },
+    {
+      "id": "clear",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Clearing resets the current app session. It cannot erase saved files, screenshots, device traces or browser caches."
+    },
+    {
+      "id": "images",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Optional JPEG, PNG or WebP photos stay in memory. Maximum 5 MB per photo; no image data goes into browser storage."
+    },
+    {
+      "id": "support-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Try asking whether listening, practical help or quiet would fit the moment."
+    },
+    {
+      "id": "timing-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A useful timing preference is one that can be stated and adjusted."
+    },
+    {
+      "id": "plans-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "An easy exit can make a social plan more comfortable."
+    },
+    {
+      "id": "curiosity-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A difference can be a question rather than a verdict."
+    },
+    {
+      "id": "repair-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A specific return time can make a pause easier to understand."
+    },
+    {
+      "id": "expectation-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "An unwritten expectation is harder to compare than a spoken one."
+    },
+    {
+      "id": "attention-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Shared time can mean different things; name the version you imagine."
+    },
+    {
+      "id": "activity-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Taking turns can fit two interests without requiring one favorite."
+    },
+    {
+      "id": "message-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A reply delay alone does not explain someone’s feelings."
+    },
+    {
+      "id": "appreciation-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A small gesture works best when its recipient actually enjoys it."
+    },
+    {
+      "id": "quiet-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Quiet time is a preference, not proof of disinterest."
+    },
+    {
+      "id": "humor-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A missed joke can be adjusted without making a character judgement."
+    },
+    {
+      "id": "future-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "An imagined possibility is not a promise."
+    },
+    {
+      "id": "score-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "A score summarizes this set of entered choices, not a person."
+    },
+    {
+      "id": "rarity-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Sparkle tiers are decorative score bands, not population statistics."
+    },
+    {
+      "id": "print-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Print this profile locally or choose Save as PDF in your browser’s print dialog."
+    },
+    {
+      "id": "retake-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "Editing an answer changes the local interpretation; it does not change reality."
+    },
+    {
+      "id": "consent-tip",
+      "type": "template",
+      "category": "general",
+      "tags": ["shared", "approved"],
+      "conditions": {},
+      "text": "No quiz result implies attraction, consent or an obligation to connect."
+    }
+  ]
+}
